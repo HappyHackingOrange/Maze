@@ -1,0 +1,166 @@
+!SESSION 2018-05-28 15:56:14.824 -----------------------------------------------
+eclipse.buildId=4.7.1.M20171009-0410
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2018-05-28 15:57:57.833
+!MESSAGE Both 'org.eclipse.scada.da.server.exec' and 'org.eclipse.scada.da.server.jdbc' register an extension parser for 'configuration'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2018-05-28 15:57:57.833
+!MESSAGE Both 'org.eclipse.scada.configuration.script' and 'org.eclipse.scada.configuration.security.utils' register a content parser for 'org.eclipse.scada.script.js'
+
+!ENTRY org.eclipse.ui 2 0 2018-05-28 15:57:58.172
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-05-28 15:57:58.172
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.scada.da.server.ui', id='org.eclipse.scada.da.server.ui.StartAction', categoryId='org.eclipse.scada.da.ui.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-05-28 15:57:58.172
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.scada.da.server.ui', id='org.eclipse.scada.da.server.ui.StopAction', categoryId='org.eclipse.scada.da.ui.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-05-28 15:57:58.172
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.scada.da.server.ui.launcher', id='org.eclipse.scada.da.server.ui.launcher.StartExporter', categoryId='org.eclipse.scada.da.ui.category'
+
+!ENTRY org.eclipse.ui 2 0 2018-05-28 15:57:58.536
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-05-28 15:57:58.536
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.scada.da.server.ui', id='org.eclipse.scada.da.server.ui.StartAction', categoryId='org.eclipse.scada.da.ui.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-05-28 15:57:58.536
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.scada.da.server.ui', id='org.eclipse.scada.da.server.ui.StopAction', categoryId='org.eclipse.scada.da.ui.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-05-28 15:57:58.536
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.scada.da.server.ui.launcher', id='org.eclipse.scada.da.server.ui.launcher.StartExporter', categoryId='org.eclipse.scada.da.ui.category'
+
+!ENTRY org.eclipse.ui 2 0 2018-05-28 15:57:58.567
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-05-28 15:57:58.567
+!MESSAGE Cannot bind to an undefined command: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2018-05-28 15:58:00.115
+!MESSAGE A DevStyle Theme is being activated on this workspace; preparing colors and configuration
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2018-05-28 15:58:00.229
+!MESSAGE DevStyle has archived current color configurations to alternate preferences - will be restored when switching out of the DevStyle Theme
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-05-28 15:58:04.904
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\vxs8122'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.oomph.setup.ui 1 0 2018-05-28 15:58:08.554
+!MESSAGE Setup tasks were performed during startup updating 5 preferences. See 'C:\Users\vxs8122\Desktop\eclipse\configuration\org.eclipse.oomph.setup\setup.log' for details
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2018-05-28 15:58:09.915
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Connect to dev.eclipse.org:443 [dev.eclipse.org/198.41.30.200] failed: Read timed out. ; version: 2.0.6.v20170906-1226
+!STACK 0
+org.apache.http.conn.ConnectTimeoutException: Connect to dev.eclipse.org:443 [dev.eclipse.org/198.41.30.200] failed: Read timed out
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:150)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.http.client.fluent.Request.internalExecute(Request.java:173)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:262)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:170)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:64)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$DelegateService$1.run(AbstractIdleService.java:62)
+	at com.google.common.util.concurrent.Callables$4.run(Callables.java:122)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at sun.security.ssl.InputRecord.readFully(Unknown Source)
+	at sun.security.ssl.InputRecord.read(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.readRecord(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(Unknown Source)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.createLayeredSocket(SSLConnectionSocketFactory.java:394)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:353)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 17 more
+!SESSION 2018-06-27 11:42:26.860 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2018-06-27 11:44:32.210
+!MESSAGE Both 'org.eclipse.scada.da.server.exec' and 'org.eclipse.scada.da.server.jdbc' register an extension parser for 'configuration'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2018-06-27 11:44:32.210
+!MESSAGE Both 'org.eclipse.scada.configuration.script' and 'org.eclipse.scada.configuration.security.utils' register a content parser for 'org.eclipse.scada.script.js'
+
+!ENTRY org.eclipse.ui 2 0 2018-06-27 11:44:32.616
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-06-27 11:44:32.616
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.scada.da.server.ui', id='org.eclipse.scada.da.server.ui.StartAction', categoryId='org.eclipse.scada.da.ui.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-06-27 11:44:32.616
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.scada.da.server.ui', id='org.eclipse.scada.da.server.ui.StopAction', categoryId='org.eclipse.scada.da.ui.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-06-27 11:44:32.616
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.scada.da.server.ui.launcher', id='org.eclipse.scada.da.server.ui.launcher.StartExporter', categoryId='org.eclipse.scada.da.ui.category'
+
+!ENTRY org.eclipse.ui 2 0 2018-06-27 11:44:32.913
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-06-27 11:44:32.913
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.scada.da.server.ui', id='org.eclipse.scada.da.server.ui.StartAction', categoryId='org.eclipse.scada.da.ui.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-06-27 11:44:32.913
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.scada.da.server.ui', id='org.eclipse.scada.da.server.ui.StopAction', categoryId='org.eclipse.scada.da.ui.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-06-27 11:44:32.913
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.scada.da.server.ui.launcher', id='org.eclipse.scada.da.server.ui.launcher.StartExporter', categoryId='org.eclipse.scada.da.ui.category'
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-27 11:44:47.199
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\vxs8122'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2018-06-27 11:52:02.611 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:/Users/vxs8122/Google Drive/DeAnza/2017Summer/CIS022C/MazeProject -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2018-06-27 11:52:07.377
+!MESSAGE Both 'org.eclipse.scada.da.server.exec' and 'org.eclipse.scada.da.server.jdbc' register an extension parser for 'configuration'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2018-06-27 11:52:07.377
+!MESSAGE Both 'org.eclipse.scada.configuration.script' and 'org.eclipse.scada.configuration.security.utils' register a content parser for 'org.eclipse.scada.script.js'
+
+!ENTRY org.eclipse.ui 2 0 2018-06-27 11:52:07.846
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-06-27 11:52:07.846
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.scada.da.server.ui', id='org.eclipse.scada.da.server.ui.StartAction', categoryId='org.eclipse.scada.da.ui.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-06-27 11:52:07.846
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.scada.da.server.ui', id='org.eclipse.scada.da.server.ui.StopAction', categoryId='org.eclipse.scada.da.ui.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-06-27 11:52:07.846
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.scada.da.server.ui.launcher', id='org.eclipse.scada.da.server.ui.launcher.StartExporter', categoryId='org.eclipse.scada.da.ui.category'
+
+!ENTRY org.eclipse.ui 2 0 2018-06-27 11:52:08.268
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-06-27 11:52:08.268
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.scada.da.server.ui', id='org.eclipse.scada.da.server.ui.StartAction', categoryId='org.eclipse.scada.da.ui.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-06-27 11:52:08.268
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.scada.da.server.ui', id='org.eclipse.scada.da.server.ui.StopAction', categoryId='org.eclipse.scada.da.ui.category'
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-06-27 11:52:08.268
+!MESSAGE Commands should really have a category: plug-in='org.eclipse.scada.da.server.ui.launcher', id='org.eclipse.scada.da.server.ui.launcher.StartExporter', categoryId='org.eclipse.scada.da.ui.category'
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-06-27 11:52:13.889
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\vxs8122'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
